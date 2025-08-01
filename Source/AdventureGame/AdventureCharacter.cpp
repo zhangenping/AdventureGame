@@ -6,7 +6,7 @@
 
 // Sets default values
 // Sets default values
-AdventureCharacter::AdventureCharacter()
+AAdventureCharacter::AAdventureCharacter()
 {
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it
 	PrimaryActorTick.bCanEverTick = true;
@@ -54,7 +54,7 @@ AdventureCharacter::AdventureCharacter()
 }
 
 // Called when the game starts or when spawned
-void AdventureCharacter::BeginPlay()
+void AAdventureCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
@@ -81,23 +81,23 @@ void AdventureCharacter::BeginPlay()
 }
 
 // Called every frame
-void AdventureCharacter::Tick(float DeltaTime)
+void AAdventureCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
 }
 
 // Called to bind functionality to input
-void AdventureCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void AAdventureCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	// Check the UInputComponent passed to this function and cast it to an UEnhancedInputComponent
 	if (UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(PlayerInputComponent))
 	{
 		// Bind Movement Actions
-		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AdventureCharacter::Move);
+		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AAdventureCharacter::Move);
 
 		// Bind Look Actions
-		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AdventureCharacter::Look);
+		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AAdventureCharacter::Look);
 
 		// Bind Jump Actions
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &ACharacter::Jump);
@@ -105,7 +105,7 @@ void AdventureCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputC
 	}
 }
 
-void AdventureCharacter::Move(const FInputActionValue& Value)
+void AAdventureCharacter::Move(const FInputActionValue& Value)
 {
 	// 2D Vector of movement values returned from the input action
 	const FVector2D MovementValue = Value.Get<FVector2D>();
@@ -123,7 +123,7 @@ void AdventureCharacter::Move(const FInputActionValue& Value)
 	}
 }
 
-void AdventureCharacter::Look(const FInputActionValue& Value)
+void AAdventureCharacter::Look(const FInputActionValue& Value)
 {
 	const FVector2D LookAxisValue = Value.Get<FVector2D>();
 
