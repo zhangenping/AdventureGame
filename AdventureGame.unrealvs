@@ -1,16 +1,29 @@
 {
   "Bookmarks": [],
   "Recents": [
-    "E:\\Unreal Projects\\AdventureGame\\Source\\AdventureGame\\MyGameModeBase.h",
-    "E:\\Unreal Projects\\AdventureGame\\Source\\AdventureGame\\AdventureCharacter.h",
+    "E:\\Unreal Projects\\AdventureGame\\Source\\AdventureGame\\PickupBase.cpp",
+    "E:\\Unreal Projects\\AdventureGame\\Source\\AdventureGame\\PickupBase.h",
     "E:\\Unreal Projects\\AdventureGame\\Source\\AdventureGame\\AdventureCharacter.cpp",
+    "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\Engine\\Classes\\Engine\\EngineTypes.h",
+    "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\CoreUObject\\Public\\UObject\\SparseDelegate.h",
+    "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\Engine\\Classes\\Components\\PrimitiveComponent.h",
+    "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Private\\UObject\\UnrealNames.cpp",
+    "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\CoreUObject\\Private\\UObject\\Obj.cpp",
+    "E:\\Unreal Projects\\AdventureGame\\Source\\AdventureGame\\Data\\ItemData.h",
+    "E:\\Unreal Projects\\AdventureGame\\Source\\AdventureGame\\AdventureCharacter.h",
+    "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\CoreUObject\\Private\\UObject\\SparseDelegate.cpp",
+    "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\UObject\\ScriptDelegates.h",
+    "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Containers\\Array.h",
+    "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\CoreUObject\\Private\\UObject\\UObjectBase.cpp",
+    "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\CoreUObject\\Public\\UObject\\ObjectHandle.h",
+    "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\Core\\Public\\Delegates\\Delegate.h",
+    "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\Engine\\Classes\\Engine\\DataTable.h",
     "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\Engine\\Classes\\Engine\\BlueprintCore.h",
     "E:\\Epic\\UnrealEngine\\Engine\\Source\\Runtime\\Engine\\Classes\\Components\\SkeletalMeshComponent.h",
     "E:\\Epic\\UnrealEngine\\Engine\\Plugins\\EnhancedInput\\Source\\EnhancedInput\\Public\\EnhancedInputSubsystems.h",
     "E:\\Epic\\UnrealEngine\\Engine\\Plugins\\EnhancedInput\\Source\\EnhancedInput\\Public\\EnhancedInputComponent.h",
     "E:\\Unreal Projects\\AdventureGame\\Source\\AdventureGame\\AdventureGame.Build.cs",
     "E:\\Epic\\UnrealEngine\\Engine\\Plugins\\EnhancedInput\\Source\\EnhancedInput\\Public\\InputActionValue.h",
-    "E:\\Unreal Projects\\AdventureGame\\Source\\AdventureGame\\MyGameModeBase.cpp",
     "E:\\Epic\\UnrealEngine\\Engine\\Plugins\\Animation\\ControlRig\\Source\\ControlRigDeveloper\\Private\\ControlRigDeveloper.cpp"
   ]
 }
